@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(200, 190, 170);
+    font: normal 1.1em sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+div#frame {
+    background-color: rgba(255, 255, 255, 0.800);
+    border: none;
+    border-radius: 30px;
+    height: 350px;
+    margin: auto;
+    padding: 15px;   
+    padding-bottom: 45px;
+    box-shadow: 03px 04px rgba(0, 0, 0, 0.250); 
+    width: 400px;
+}
+
+input {
+    border: 1px dotted gray;
+    height: 18px;
+    padding: 2px;
+    text-align: center;
+    width: 50px;
+}
+
+div#frame p#inst {
+    color: grey;
+    font: normal 10px Arial;
+    font-style: italic;
+}
+
+img {
+    border-radius: 50px;
+    margin: auto;
+    max-width: 300px;
+    max-height: 250px;   
+}
+
+div#frame p {
+    color: brown;
+}
+
+footer {
+    color: white;
+    font: normal 12px sans-serif;
+}
