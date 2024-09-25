@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="imagens/calendar.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <div id="box">
+        Ano de nascimento: <input type="number" id="ano" min="0"> <br>
+        Sexo:
+        <input type="radio" name="sexrad" id="mas" checked >
+        <label for="mas">Masculino</label>
+        <input type="radio" name="sexrad" id="fem">
+        <label for="fem">Feminino</label> <br>
+        <input type="button" id="verificar" value="Verificar" onclick="check()">
+        <div id="res">
+            <p id="texto"></p>
+            <img src="" id="img">
+        </div>
+    </div>
+    <footer>
+        <p id="footer">By: Lucas Minosso Reis</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
