@@ -17,7 +17,7 @@ func main() {
 	fmt.Println(soma)
 
 	var f = func(txt string) string {
-		println(txt)
+		fmt.Println(txt)
 		return txt
 	}
 
