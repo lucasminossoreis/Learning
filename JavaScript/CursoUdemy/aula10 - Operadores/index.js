@@ -1,3 +1,4 @@
 // Operadores aritméticos, de atribuição e incremento
 
-console.log("Teste")
+let nome = "Luana"
+console.log(nome)
