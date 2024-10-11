@@ -1,0 +1,1 @@
+console.log("O padrão do JavaScript para Numbers é: IEEE 754-2008")
